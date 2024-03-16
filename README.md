@@ -34,12 +34,12 @@ else:
 >
 >Cero (0): "El número x es el neutro para la suma"
 ```python
-real : float =float(input("Ingrese un número real: "))
+real : float = float(input("Ingrese un número real: "))
 if real>0:
     print("El número",real,"es positivo")
 elif real<0:
     print("El número",real,"es negativo")
-elif real==0:
+else:
     print("El número",real,"es el neutro para la suma")
 ```
 >***5. Dado el centro y el radio de un círculo, determinar si un punto de R2 pertenece o no al interior del círculo.***
