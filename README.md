@@ -13,9 +13,9 @@ else:
 cadena: str = input("Ingrese una letra (cadena de longitud 1): ")
 ascii=ord(cadena)
 if ascii%2==0:
-    print("El código ASCII que le corresppnde a la letra" ,cadena, "es un número par (",ascii,")")
+    print("El código ASCII que le corresponde a la letra" ,cadena, "es un número par (",ascii,")")
 else:
-    print("El código ASCII que le corresppnde a la letra" ,cadena, "es un número impar (",ascii,")")
+    print("El código ASCII que le corresponde a la letra" ,cadena, "es un número impar (",ascii,")")
 ```
 >***3. Dado un carácter, construya un programa en Python para determinar si el carácter es un dígito o no.***
 ```python
